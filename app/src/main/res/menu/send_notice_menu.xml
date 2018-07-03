@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuid_image"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add_a_photo_black_24dp"
+        android:title="Galery"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/from_galey"
+                android:title="Galery" />
+            <item
+                android:id="@+id/takePhotoWcamera"
+                android:title="Take Photo" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuid_file"
+        android:orderInCategory="100"
+        android:title="@string/atatch_file"
+        android:icon="@drawable/ic_attach_file_black_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/send"
+        android:orderInCategory="100"
+        android:title="@string/atatch_file"
+        android:icon="@drawable/sendf"
+        app:showAsAction="always" />
+</menu>

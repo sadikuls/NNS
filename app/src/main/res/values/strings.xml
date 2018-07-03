@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NNS</string>
+    <string name="refresh">refresh</string>
+    <string name="atatch_file">attatch file</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+</resources>
